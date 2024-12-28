@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stone Paper Scissor Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="mainbox">
+
+    <div class="opp">
+      <div>
+
+        <center>
+        <p id="oppScore">0</p>
+        </center>
+      </div>
+
+      <div>
+        <img src="images/opp.png" width="100px" id="oppImg">
+        <br/>
+        <label>Computer</label>
+      </div>
+
+      <div>
+        <p id="annoc">Play Buddy</p>
+      </div>
+    </div>
+
+    <div class="play">
+      <div>
+
+
+          <img src="images/scissor.jpeg" alt="" width="80px" id="computerImage">
+       
+
+      </div>
+      <div>
+
+       
+          <img src="images/scissor.jpeg" alt="" width="80px" id="userImage">
+        
+
+      </div>
+
+    </div>
+
+
+    <div class="user">
+      <div>
+          <p id="userScore">0</p>
+      </div>
+
+      <div>
+        <label id="userName">Gan Gotala</label>
+        <br>
+        <img src="images/user.png" width="100px">
+      </div>
+      <div>
+        <button class="btn" id="stone" onclick="game(1)">Stone</button>
+        <button class="btn" id="paper" onclick="game(2)">Paper</button>
+        <button class="btn" id="scissor" onclick="game(3)">Scissor</button>
+      </div>
+    </div>
+    
+    </div>
+
+
+
+
+  </div>
+  
+   <script src="index.js"></script>
+</body>
+</html>
